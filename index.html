@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="main" >
+        <div class="search-box">
+            <input type="text" class="search" placeholder="Enter City">
+            <button class="searchbtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="error">Enter a valid city !</div>
+        <div class="weather">
+            <div class="weather-main">
+                <img class="weather-img" src="/images/pngwing.com (57).png" alt="">
+                <h4 class="weather-about">clear</h4>
+                <h1 class="weather-temp">21°C</h1>
+                <h2 class="weather-city">Delhi</h2>
+            </div>
+            <div class="extra-details">
+                <div class="humidity-div">
+                    <img class="humidity-img" src="./images/humidity.png" alt="">
+                    <div class="humidity-values">
+                        <h1 class="humidity">31%</h1>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="wind-div">
+                    <img class="wind-img" src="./images/wind.png" alt="">
+                    <div class="wind-values">
+                        <h1 class="wind">54 km/hr</h1>
+                        <p>Wind</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
